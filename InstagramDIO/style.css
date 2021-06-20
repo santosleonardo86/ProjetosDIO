@@ -1,3 +1,4 @@
+/* Geral */
 * {
     padding: 0;
     margin: 0;
@@ -10,13 +11,14 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(27, 27, 27);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
 }
 
+/* Toda a página */
 .instagram-page {
     display: flex;
     align-items: center;
@@ -25,6 +27,7 @@ body {
     height: 90vh;
 }
 
+/* Celular */
 .phone {
     display: flex;
     align-items: center;
@@ -45,18 +48,19 @@ body {
     justify-content: space-around; /* vertical, ambos por causa do column */
     flex-direction: column;
     width: 31%;
-    min-height: 34rem;
+    /* min-height: 34rem; */
 }
 
+/* Quadrado */
 .group {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: white;
+    background-color: rgb(27, 27, 27);
     width: 100%;
     padding: 1.9rem 0;
-    border: 1px solid lightgray;
+    border: 1px solid rgb(131, 131, 131);
 }
 
 .group:nth-child(1) {
@@ -65,6 +69,13 @@ body {
 
 .instagram-logo {
     height: 3rem;
+    background-color: black;
+}
+
+p {
+    color: black;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 
 .profile-picture {
@@ -79,9 +90,10 @@ body {
     height: 7rem;
 }
 
+/* Botão de login */
 .login {
     background-color: #0095f6;
-    color: white;
+    color: rgb(245, 245, 245);
     font-weight: 550;
     padding: 8px;
     border-radius: 4px;
@@ -90,10 +102,10 @@ body {
 }
 
 .not-account {
-    color: rgb(0, 0, 0);
+    color: rgb(223, 223, 223);
 }
 
-.link-blue {
+.switch{
     color: #0095f6;
     font-weight: bold;
 }
@@ -103,7 +115,7 @@ footer {
     position: fixed;
     width: 100%;
     left: 46%;
-    color: gray;
+    color: rgb(136, 136, 136);
     font-size: 12px;
 }
 
@@ -111,7 +123,7 @@ footer {
 
 @media (max-width: 1024px) {
     body {
-        background-color: white;
+        background-color: rgb(31, 31, 31);
     }
 
     .instagram-page {
@@ -133,7 +145,7 @@ footer {
 
 @media (max-width: 650px) {
     body {
-        background-color: white;
+        background-color: rgb(31, 31, 31);
     }
 
     .instagram-page {
