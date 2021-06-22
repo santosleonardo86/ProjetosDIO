@@ -1,4 +1,4 @@
-/* Geral */
+/* ---------------------------- Geral ------------------------------------- */
 * {
     padding: 0;
     margin: 0;
@@ -18,16 +18,17 @@ body {
     justify-content: center;
 }
 
-/* Toda a página */
+/* ---------------------------- Toda a página ----------------------------- */
 .instagram-page {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 60%;
     height: 90vh;
+    margin-right: 15%;
 }
 
-/* Celular */
+/* ---------------------------- Celular ---------------------------------- */
 .phone {
     display: flex;
     align-items: center;
@@ -51,7 +52,7 @@ body {
     /* min-height: 34rem; */
 }
 
-/* Quadrado */
+/* ---------------------------- Quadrado --------------------------------- */
 .group {
     display: flex;
     justify-content: space-between;
@@ -63,16 +64,17 @@ body {
     border: 1px solid rgb(131, 131, 131);
 }
 
+/* ------------------------ Tamanho do Quadrado ----------------------- */
 .group:nth-child(1) {
-    min-height: 25rem;
+    min-height: 23rem;
+    min-width: 25rem;
 }
 
-.instagram-logo {
-    height: 3rem;
-    background-color: black;
+.logo {
+    margin-top: 5px;
 }
 
-p {
+p img{
     color: black;
     -webkit-filter: invert(100%);
     filter: invert(100%);
@@ -84,13 +86,15 @@ p {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .profile-picture img {
-    height: 7rem;
+    height: 6rem;
+    width: 6rem;
 }
 
-/* Botão de login */
+/* ------------------------------ Botão de login ---------------------------- */
 .login {
     background-color: #0095f6;
     color: rgb(245, 245, 245);
@@ -99,10 +103,33 @@ p {
     border-radius: 4px;
     min-width: 73%;
     text-align: center;
+    margin-bottom: 5px;
+}
+
+.remove {
+    color: #0095f6;
+    font-weight: 550;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+/* -------------------------------- Retângulo ------------------------------ */
+.group2 {
+    border: 1px solid rgb(131, 131, 131);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    padding: 1.9rem 0%;
+    margin-top: 10px;
+    min-width: 25rem;
 }
 
 .not-account {
-    color: rgb(223, 223, 223);
+    color: rgb(131, 131, 131);
+    margin-bottom: 8px;
 }
 
 .switch{
@@ -110,9 +137,53 @@ p {
     font-weight: bold;
 }
 
+.or {
+    color: rgb(131, 131, 131);
+}
+
+/* ------------------------------ Get the app ------------------------ */
+.get-the-app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.877);
+    margin-top: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.get-app {
+    margin-bottom: 5px;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('./img/apple-button.png');
+    margin-right: 0.8rem  ;
+}
+
+.app-download:nth-child(2) {
+    background-image: url('./img/googleplay-button.png');
+}
+
+
+/* --------------------------------- Rodapé ------------------------ */
 .rodape {
     display: flex;
-    justify-content: space-around;
+    justify-content: c;
     align-items: center;
     flex-direction: column;
     bottom: 100px;
@@ -121,7 +192,8 @@ p {
     font-size: 12px;
 }
 
-/* media queries*/
+
+/* ------------------------ media queries -----------------------------*/
 @media (max-width: 1850px) {
     .instagram-page {
         width: 1100px;
@@ -135,6 +207,7 @@ p {
 
     .instagram-page {
         width: 1000px;
+        margin: 0;
     }
     
     .phone {
@@ -146,6 +219,10 @@ p {
     }
 
     .group {
+        border: 1px solid transparent;
+    }
+
+    .group2 {
         border: 1px solid transparent;
     }
 }
@@ -170,6 +247,10 @@ p {
     .group {
         border: 1px solid transparent;
     }
+
+    .group2 {
+        border: 1px solid transparent;
+    }
 }
 
 @media (max-width: 650x) {
@@ -186,10 +267,14 @@ p {
     }
 
     .continue {
-        width: 70%;
+        width: 80%;
     }
 
     .group {
+        border: 1px solid transparent;
+    }
+
+    .group2 {
         border: 1px solid transparent;
     }
 }
