@@ -33,24 +33,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 48%;
     position: relative;
     bottom: 3.5%;
-    left: 8%;
+    /* left: 8%; */
 }
 
 .phone img {
     height: 50rem;
 }
 
-.continue {
-    display: flex;
-    align-items: center; /* horizontal */
-    justify-content: space-around; /* vertical, ambos por causa do column */
-    flex-direction: column;
-    width: 31%;
-    /* min-height: 34rem; */
-}
 
 /* ---------------------------- Quadrado --------------------------------- */
 .group {
@@ -62,6 +54,15 @@ body {
     width: 100%;
     padding: 1.9rem 0;
     border: 1px solid rgb(131, 131, 131);
+}
+
+.continue {
+    display: flex;
+    align-items: center; /* horizontal */
+    justify-content: space-around; /* vertical, ambos por causa do column */
+    flex-direction: column;
+    width: 31%;
+    /* min-height: 34rem; */
 }
 
 /* ------------------------ Tamanho do Quadrado ----------------------- */
@@ -85,7 +86,7 @@ p img{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    overflow: hidden;
+    overflow: hidden;       /* remove as pontas da imagem */
     margin-bottom: 10px;
 }
 
@@ -196,17 +197,18 @@ p img{
 /* ------------------------ media queries -----------------------------*/
 @media (max-width: 1850px) {
     .instagram-page {
-        width: 1100px;
+        width: 1120px;
+
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1330px) {
     body {
         background-color: rgb(31, 31, 31);
     }
 
     .instagram-page {
-        width: 1000px;
+        width: 1100px;
         margin: 0;
     }
     
