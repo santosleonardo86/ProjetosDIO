@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(218, 213, 213);
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.breadcrumb {
+    font-weight: 500;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
