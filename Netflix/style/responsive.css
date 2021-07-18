@@ -28,8 +28,8 @@
 
 @media screen and (max-width:650px) {
     .filme-principal {
-        margin: 0px 0px 0px 0px;
-        height: 650px;
+        margin: 0px px 0px 0px;
+        height: 700px;
     }
 
     .logo {
@@ -51,7 +51,7 @@
     }
 
     .container {
-        margin-top: 300px;
+        margin-top: 250px;
         margin-left: 10px;
     }
     .descricao {
@@ -64,7 +64,7 @@
     }
 
     .continue {
-        margin-top: 80px;
+        margin-top: 50px;
     }
     .continue img {
         height: 170px;
@@ -72,7 +72,7 @@
     }
 
     .carrossel-filmes {
-        margin-top: 260px;
+        margin-top: 100px;
         margin-left: 10px;
     }
     .item {
@@ -81,7 +81,17 @@
 }
 
 @media screen and (min-width:651px) {
+    .container {
+        margin-top: 150px;
+    }
     .descricao {
         min-width: 56%;
-}
+    }
+    .continue {
+        margin-top: 68px;
+    }
+
+    .carrossel-filmes {
+        margin-top: 100px;
+    }
 }
