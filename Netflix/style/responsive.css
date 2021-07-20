@@ -1,35 +1,21 @@
 @media screen and (max-width:1500px) {
-    .logo {
-        display: flex;
-        margin-bottom: 5px;
-        margin-top: 10px;
-    }
     nav a {
         white-space: initial;
     }
 
     .container {
-        margin-top: 100px;
-        margin-left: 10px;
+        margin-top: 460px;
     }
-    .descricao {
-        width: 40%;
-    }
-
-    
     .carrossel-filmes {
-        margin-top: 200px;
-        margin-left: 10px;
+        margin-top: 140px;
     }
-
 }
 
 /* ------------------------------- 650px ------------------------------- */
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:670px) {
     .filme-principal {
-        margin: 0px px 0px 0px;
-        height: 700px;
+        margin: 0px 0px 0px 0px;
     }
 
     .logo {
@@ -51,16 +37,15 @@
     }
 
     .container {
-        margin-top: 250px;
-        margin-left: 10px;
+        margin-top: 360px;
     }
     .descricao {
-        min-width: 80%;
-        margin-bottom: 40px;
+        width: 400px;
+        margin-bottom: 35px;
     }
     .botao {
         margin-top: 5px;
-        width: 300px;
+        width: 350px;
     }
 
     .continue {
@@ -73,25 +58,8 @@
 
     .carrossel-filmes {
         margin-top: 100px;
-        margin-left: 10px;
     }
     .item {
         width: 98%;
-    }
-}
-
-@media screen and (min-width:651px) {
-    .container {
-        margin-top: 150px;
-    }
-    .descricao {
-        min-width: 56%;
-    }
-    .continue {
-        margin-top: 68px;
-    }
-
-    .carrossel-filmes {
-        margin-top: 100px;
     }
 }
