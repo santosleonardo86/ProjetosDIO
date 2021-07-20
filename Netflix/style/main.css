@@ -39,16 +39,14 @@ body {
 }
 
 nav a {
-    /* display: flex; */
     text-decoration: none;
     color: #AAA;
-    margin-right: 10px; /* espaçamento entre Início, Séries, Filmes, Documentários */
+    margin-right: 10px;
     margin-bottom: 15px;
 }
 
 nav a:hover {
-    /* cor das palavras ao passar o mouse por cima das mesmas*/
-    color: #e5e5e5;
+    color: #e5e5e5; /* cor das palavras ao passar o mouse por cima das mesmas*/
 }
 
 /* --------------------------------- Filme Principal -------------------------------------- */
@@ -67,21 +65,19 @@ nav a:hover {
 }
 
 .container {
-    margin-top: 100px;
-    margin-left: 30px;
+    margin-top: 460px;
+    margin-left: 2%;
 }
 
 .titulo {
-    margin-top: 35%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 .descricao {
     margin-top: 10px;
-    /*aumenta o espaçamento entre o título e a descrição*/
     margin-bottom: 35px;
-    width: 56%;
+    width: 60%;
 }
 
 .botao {
@@ -102,22 +98,16 @@ nav a:hover {
 }
 
 .botao i {
-    margin-right: 5px;
-    /*aumenta o espaçamento entre os ícones dos botões e texto*/
+    margin-right: 5px; /*aumenta o espaçamento entre os ícones dos botões e o texto*/
 }
 
-.box-filme {
-    height: 100%;
-    width: 100%;
-    display: block;
-}
 
 /* --------------------------------- Continue Assistindo -------------------------------------- */
 
 .continue {
     display: flex;
     flex-direction: column;
-    margin-top: 0px;
+    margin-top: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     font-size: 20px;
@@ -141,9 +131,15 @@ nav a:hover {
 /* ------------------------------------- Categorias --------------------------------------- */
 
 .carrossel-filmes {
-    margin-top: 140px; /*deixa o carrossel de filmes mais distante dos botões*/
-    margin-left: 30px;
+    margin-top: 140px;
+    margin-left: 2%;
     margin-bottom: 90px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: flex;
 }
 
 .nome {
