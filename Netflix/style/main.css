@@ -61,7 +61,7 @@ nav a:hover {
         url('/Netflix/img/extras/capa-bb2.jpg');
 
     height: 750px;
-    background-size :cover;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
